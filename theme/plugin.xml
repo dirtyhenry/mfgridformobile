@@ -1,0 +1,11 @@
+<plugin>
+	<nom>MFGridForMobile</nom>
+	<auteur>Mickaël Floc'hlay</auteur>
+	<licence>GNU General Public License v3</licence>
+	<version>1.0</version>
+ 	<description>Le thème utilisé par le site www.mickaelflochlay.com. Il gère l'adaptation automatique à la visualisation sur terminal mobile.</description>
+ 	<icon>vignette.jpg</icon>
+ 	<etat>stable</etat>
+ 	<prefix>theme</prefix>
+	<utilise id="Z" version="[1.2.0;]" />
+</plugin>
