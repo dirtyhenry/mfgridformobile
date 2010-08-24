@@ -1,0 +1,33 @@
+<div id="page">
+  <div class="header">
+    <div class="title">
+      <INCLURE{fond=inclure/entete,env}>
+    </div>
+    <div class="subnavigation">
+      <INCLURE{fond=navigation/#ENV{type},env}>
+    </div>
+    &nbsp;
+  </div>
+  <div class="nettoyeur"></div>
+  
+  <div class="entry">
+    <div class="navigation">
+      <INCLURE{fond=inclure/barre-nav,env}>
+    </div><!-- /end .navigation -->
+    <div class="content">
+      <div class="main">
+        <INCLURE{fond=contenu/#ENV{type},env}>
+      </div><!-- /end .main -->          
+      <div class="meta">
+        <INCLURE{fond=extra/#ENV{type},env}>
+      </div><!-- /end. meta -->
+    </div><!-- /end .content -->
+    
+    <div class="nettoyeur"></div>
+    
+  </div><!-- /end .entry -->
+  <div class="nettoyeur"></div>
+  <div class="footer">
+    <INCLURE{fond=inclure/pied,env}>
+  </div>
+</div><!-- /end .page -->
