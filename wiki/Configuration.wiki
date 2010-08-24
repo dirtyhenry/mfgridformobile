@@ -5,7 +5,7 @@
 Before you start customizing the squelette, please be sure you meet all this requirements :
   * A section of your site must be dedicated to a blog, its ID will be refered here as BLOG_SECTION_ID
   * A section of your site must be dedicated to a unique contact article, its ID will be refered here as CONTACT_SECTION_ID
-  * You should have a FeedBurner account
+  * You should have a Feed Burner account
   * You should have a Google Analytics account
   * You should have a Twitter account
 
