@@ -1,0 +1,1 @@
+This project aims to provide a ZPIP theme and squelet for the SPIP CMS that use technical features allowing a SPIP to be flexible for any screen dimensions.
